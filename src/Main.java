@@ -12,7 +12,6 @@ public class Main {
             System.err.println("Failed to initialize LaF");
         }
 
-
         new MainUI(array_1, n);
     }
 }
