@@ -1,8 +1,8 @@
 public class Cut {
     public int[] last_element(int[] input){
         int[] new_array = new int[input.length-1];
-        int index_length = input.length -1;
-        for(int i = 0; i<index_length;i++){
+        //int index_length = input.length -1;
+        for(int i = 0; i< new_array.length;i++){
             new_array[i] = input[i];
         }
         return new_array;

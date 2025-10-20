@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array_1 = {23,21, -1, 99};
+        int[] array_1 = {0,0, 0, 0};
         int n = 1;
 
         try {

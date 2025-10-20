@@ -36,6 +36,8 @@ public class MainUI extends JFrame{
 
                 //System.out.println(Arrays.toString(new Cut().n_element(array_1, 1)));
                 System.out.println("Median: "+new Median().median(array_1));
+
+                System.out.println("Median without sorting algorithm: " + new Median().median_nosort(array_1));
             }
         });
     }
