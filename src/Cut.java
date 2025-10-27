@@ -32,10 +32,6 @@ public class Cut {
             }
             counter++;
         }
-
-
-
-
         return new_array;
     }
 }
