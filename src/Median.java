@@ -2,9 +2,9 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Median {
-    double median;
+    static double median;
 
-    public double median(int[] input){
+    public static double median(int[] input){
         //Arrays.sort(input); //Replace with sorting algorithm
         input = new SelectionSort().sort(input);
 
